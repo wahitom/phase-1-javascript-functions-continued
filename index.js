@@ -16,10 +16,6 @@ function wrapAdjective(symbol = "" ){
             return (`You are ${symbol}${sentence}${symbol}!`) 
         }
     }
-    /* return function(sentence){
-        sentence = "a dedicated programmer"
-        return (`You are ${symbol}${sentence}${symbol}`)
-    } */
 
 console.log(wrapAdjective('*')('a dedicated programmer'))
 
